@@ -625,7 +625,7 @@ function App() {
               title="A Glimpse Into Our World"
               copy="Every piece tells a story. Follow ours @jonaakki.india"
             />
-            <div className="grid px-20 grid-cols-2 gap-5 md:grid-cols-4">
+            <div className="grid px-20 max-sm:px-2 grid-cols-2 gap-5 md:grid-cols-4">
               {IMAGES.instagram.map((img) => (
                 <div
                   key={img}
